@@ -1,0 +1,14 @@
+// Place your key bindings in this file to overwrite the defaults
+// /Users/olali/Library/Application Support/Code/User/keybindings.json
+[
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "run:rust_binary"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.tasks.runTask",
+        "args": "cargo:build"
+    }
+]
